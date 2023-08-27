@@ -1,4 +1,4 @@
-age,workclass,fnlwgt,education,marital-status,occupation,sex,capital_gain,capital_loss,hours_per_week,country,salary
+age,workclass,fnlwgt,education,marital_status,occupation,sex,capital_gain,capital_loss,hours_per_week,country,salary
 39,State-gov,77516,Graduate,Single,Adm-clerical,Male,2174,0,40,United-States,<=50K
 50,Without-pay,83311,Graduate,Married,Exec-managerial,Male,0,0,13,United-States,<=50K
 38,Private,215646,HS-grad,Divorced,Other-service,Male,0,0,40,United-States,<=50K
@@ -4880,7 +4880,6 @@ age,workclass,fnlwgt,education,marital-status,occupation,sex,capital_gain,capita
 46,Private,72619,JR-grad,Married,Exec-managerial,Female,0,0,40,United-States,>50K
 42,State-gov,55764,JR-grad,Divorced,Prof-specialty,Male,0,0,40,United-States,<=50K
 37,Private,30267,JR-grad,Single,Transport-moving,Male,0,0,60,United-States,>50K
-25,Private,308144,Graduate,Single,Craft-repair,Male,0,0,40,Other-States,<=50K
 29,Private,206351,HS-grad,Married,Craft-repair,Male,5013,0,40,United-States,<=50K
 26,Private,282304,JR-grad,Single,Sales,Male,0,0,45,United-States,<=50K
 26,Private,176077,JR-grad,Single,Prof-specialty,Female,0,0,40,United-States,<=50K
@@ -5103,7 +5102,6 @@ age,workclass,fnlwgt,education,marital-status,occupation,sex,capital_gain,capita
 47,State-gov,80914,Masters,Married,Exec-managerial,Male,0,0,47,United-States,>50K
 62,Private,73292,JR-grad,Married,Other-service,Male,0,0,40,United-States,<=50K
 54,Without-pay,212165,HS-grad,Married,Sales,Male,0,0,60,United-States,<=50K
-90,Private,52386,JR-grad,Single,Other-service,Male,0,0,35,United-States,<=50K
 33,Private,205649,JR-grad,Divorced,Craft-repair,Male,0,0,20,United-States,<=50K
 57,Private,109638,JR-grad,Married,Exec-managerial,Male,0,1672,45,United-States,<=50K
 25,Private,200408,JR-grad,Single,Craft-repair,Male,0,0,40,United-States,<=50K
@@ -9170,7 +9168,6 @@ age,workclass,fnlwgt,education,marital-status,occupation,sex,capital_gain,capita
 38,Private,127601,JR-grad,Divorced,Exec-managerial,Female,0,0,40,United-States,>50K
 37,Private,227597,JR-grad,Married,Craft-repair,Male,0,0,40,United-States,<=50K
 21,Private,143995,JR-grad,Single,Prof-specialty,Male,0,0,20,United-States,<=50K
-21,Private,250051,JR-grad,Single,Prof-specialty,Female,0,0,10,United-States,<=50K
 26,Private,284078,JR-grad,Single,Adm-clerical,Male,0,0,40,United-States,<=50K
 34,Private,207668,JR-grad,Married,Other-service,Male,0,1887,40,United-States,>50K
 18,Private,163787,JR-grad,Single,Sales,Female,0,0,15,United-States,<=50K
@@ -11630,7 +11627,6 @@ age,workclass,fnlwgt,education,marital-status,occupation,sex,capital_gain,capita
 47,Without-pay,274800,Graduate,Married,Prof-specialty,Male,0,0,60,United-States,<=50K
 31,Private,129804,HS-grad,Single,Farming-fishing,Male,0,0,40,Other-States,<=50K
 22,State-gov,65547,JR-grad,Single,Exec-managerial,Male,0,0,40,United-States,<=50K
-20,Private,107658,JR-grad,Single,Prof-specialty,Female,0,0,10,United-States,<=50K
 57,Private,161097,HS-grad,Divorced,Sales,Female,0,0,26,United-States,<=50K
 18,Private,118376,JR-grad,Single,Other-service,Female,0,0,15,United-States,<=50K
 32,Private,131224,HS-grad,Married,Prof-specialty,Male,0,0,40,United-States,<=50K
@@ -13083,7 +13079,6 @@ age,workclass,fnlwgt,education,marital-status,occupation,sex,capital_gain,capita
 29,Private,215504,HS-grad,Married,Machine-op-inspct,Male,0,0,40,United-States,<=50K
 30,Private,158002,JR-grad,Single,Craft-repair,Male,0,0,55,Other-States,<=50K
 53,State-gov,35305,Graduate,Divorced,Prof-specialty,Female,0,0,57,United-States,<=50K
-25,Private,195994,HS-grad,Single,Other-service,Female,0,0,40,Other-States,<=50K
 44,State-gov,321824,HS-grad,Married,Protective-serv,Male,0,0,38,United-States,<=50K
 22,Private,180449,JR-grad,Married,Other-service,Male,0,0,28,United-States,<=50K
 40,Private,201764,HS-grad,Divorced,Craft-repair,Male,0,0,40,United-States,<=50K
@@ -15058,7 +15053,6 @@ age,workclass,fnlwgt,education,marital-status,occupation,sex,capital_gain,capita
 50,Private,338283,JR-grad,Married,Craft-repair,Male,0,0,40,United-States,>50K
 23,Private,242375,HS-grad,Single,Other-service,Female,0,0,30,United-States,<=50K
 25,Private,81286,HS-grad,Married,Craft-repair,Male,0,0,45,United-States,<=50K
-21,Private,243368,HS-grad,Single,Farming-fishing,Male,0,0,50,Other-States,<=50K
 31,Private,217803,HS-grad,Divorced,Sales,Female,0,0,32,United-States,<=50K
 31,Without-pay,323020,JR-grad,Married,Other-service,Female,0,0,30,United-States,<=50K
 41,Private,34278,JR-grad,Divorced,Other-service,Male,0,0,40,United-States,<=50K
@@ -17039,7 +17033,6 @@ age,workclass,fnlwgt,education,marital-status,occupation,sex,capital_gain,capita
 37,Private,126675,HS-grad,Single,Craft-repair,Male,0,0,40,United-States,<=50K
 30,Private,141118,JR-grad,Single,Adm-clerical,Female,0,0,40,United-States,<=50K
 20,Private,273701,JR-grad,Single,Prof-specialty,Male,34095,0,10,United-States,<=50K
-46,Private,173243,HS-grad,Married,Craft-repair,Male,0,0,40,United-States,<=50K
 24,State-gov,161092,HS-grad,Single,Other-service,Male,0,0,40,United-States,<=50K
 32,Private,209691,Graduate,Married,Sales,Male,0,0,42,United-States,>50K
 36,Private,89508,JR-grad,Divorced,Prof-specialty,Male,0,0,50,United-States,<=50K
@@ -18554,7 +18547,6 @@ age,workclass,fnlwgt,education,marital-status,occupation,sex,capital_gain,capita
 18,Private,210828,JR-grad,Single,Other-service,Male,0,0,30,United-States,<=50K
 41,Private,297186,HS-grad,Married,Transport-moving,Female,0,0,40,United-States,<=50K
 37,Private,116554,Masters,Divorced,Exec-managerial,Female,0,0,70,United-States,<=50K
-30,Private,144593,HS-grad,Single,Other-service,Male,0,0,40,United-States,<=50K
 26,State-gov,147719,Graduate,Single,Prof-specialty,Male,0,0,20,Other-States,<=50K
 68,Without-pay,89011,Doctorate,Married,Prof-specialty,Male,0,0,50,Other-States,<=50K
 31,Private,38158,JR-grad,Married,Sales,Male,0,0,40,United-States,<=50K
@@ -18697,7 +18689,6 @@ age,workclass,fnlwgt,education,marital-status,occupation,sex,capital_gain,capita
 45,Private,197240,JR-grad,Married,Sales,Male,7688,0,40,United-States,>50K
 55,Private,101338,HS-grad,Married,Craft-repair,Male,0,0,40,United-States,<=50K
 60,Private,148522,JR-grad,Married,Craft-repair,Male,0,0,40,United-States,<=50K
-19,Private,97261,HS-grad,Single,Farming-fishing,Male,0,0,40,United-States,<=50K
 35,Private,166606,HS-grad,Married,Prof-specialty,Male,0,0,40,United-States,<=50K
 20,Private,229414,HS-grad,Single,Machine-op-inspct,Female,0,0,30,United-States,<=50K
 34,State-gov,209213,Graduate,Single,Prof-specialty,Male,0,0,15,United-States,<=50K
@@ -21317,7 +21308,6 @@ age,workclass,fnlwgt,education,marital-status,occupation,sex,capital_gain,capita
 27,Private,253814,Graduate,Married,Prof-specialty,Female,0,0,40,United-States,>50K
 45,Private,421412,HS-grad,Married,Machine-op-inspct,Male,0,0,45,United-States,>50K
 47,Private,207140,HS-grad,Divorced,Adm-clerical,Female,0,0,38,United-States,<=50K
-19,Private,138153,JR-grad,Single,Adm-clerical,Female,0,0,10,United-States,<=50K
 29,Private,46987,HS-grad,Single,Adm-clerical,Female,0,0,55,United-States,<=50K
 51,Private,183173,HS-grad,Married,Exec-managerial,Male,0,0,70,United-States,>50K
 34,State-gov,229531,JR-grad,Married,Prof-specialty,Male,0,0,60,United-States,<=50K
@@ -21489,7 +21479,6 @@ age,workclass,fnlwgt,education,marital-status,occupation,sex,capital_gain,capita
 48,Private,355890,Graduate,Married,Prof-specialty,Male,0,0,55,United-States,>50K
 20,Private,107658,JR-grad,Single,Prof-specialty,Female,0,0,10,Other-States,<=50K
 58,Private,136841,Graduate,Married,Prof-specialty,Female,99999,0,35,United-States,>50K
-19,Private,146679,JR-grad,Single,Exec-managerial,Male,0,0,30,United-States,<=50K
 75,Private,35724,HS-grad,Divorced,Prof-specialty,Female,0,0,8,United-States,<=50K
 24,State-gov,42251,Graduate,Single,Prof-specialty,Female,0,0,30,United-States,<=50K
 31,Private,113838,HS-grad,Married,Machine-op-inspct,Male,0,0,45,United-States,<=50K
@@ -21874,7 +21863,6 @@ age,workclass,fnlwgt,education,marital-status,occupation,sex,capital_gain,capita
 27,Private,258768,Graduate,Single,Other-service,Male,0,0,40,United-States,<=50K
 35,Private,287658,JR-grad,Single,Adm-clerical,Male,0,0,40,United-States,<=50K
 51,Private,95946,Graduate,Married,Prof-specialty,Male,0,0,50,United-States,>50K
-49,Private,31267,HS-grad,Married,Craft-repair,Male,0,0,40,United-States,<=50K
 35,State-gov,302149,Graduate,Married,Sales,Male,7298,0,40,Other-States,>50K
 28,Private,250135,JR-grad,Divorced,Exec-managerial,Female,0,0,40,United-States,<=50K
 37,Private,176073,JR-grad,Divorced,Craft-repair,Male,0,0,50,United-States,<=50K
@@ -22299,7 +22287,6 @@ age,workclass,fnlwgt,education,marital-status,occupation,sex,capital_gain,capita
 30,Private,203258,HS-grad,Single,Other-service,Female,0,0,35,United-States,<=50K
 17,Private,134480,JR-grad,Single,Other-service,Female,0,0,25,United-States,<=50K
 35,State-gov,85548,JR-grad,Divorced,Adm-clerical,Female,0,0,40,United-States,<=50K
-25,Private,195994,HS-grad,Single,Other-service,Female,0,0,40,Other-States,<=50K
 42,State-gov,148316,JR-grad,Married,Protective-serv,Male,0,0,40,United-States,>50K
 42,Private,227466,HS-grad,Single,Other-service,Male,0,0,40,United-States,<=50K
 19,Private,68552,HS-grad,Single,Other-service,Male,0,0,30,United-States,<=50K
@@ -22366,7 +22353,6 @@ age,workclass,fnlwgt,education,marital-status,occupation,sex,capital_gain,capita
 24,Private,293324,HS-grad,Married,Machine-op-inspct,Male,0,0,40,United-States,<=50K
 20,Private,219262,HS-grad,Single,Transport-moving,Male,0,0,50,United-States,<=50K
 38,Without-pay,403391,Graduate,Married,Exec-managerial,Male,0,0,60,United-States,<=50K
-44,Private,367749,Graduate,Single,Prof-specialty,Female,0,0,45,Other-States,<=50K
 24,Private,128487,Graduate,Single,Adm-clerical,Female,0,0,40,United-States,<=50K
 32,State-gov,111363,Graduate,Married,Prof-specialty,Male,0,0,75,United-States,>50K
 49,Private,240869,HS-grad,Single,Other-service,Male,0,0,35,United-States,<=50K
@@ -22493,7 +22479,6 @@ age,workclass,fnlwgt,education,marital-status,occupation,sex,capital_gain,capita
 34,Private,305619,HS-grad,Married,Craft-repair,Male,0,0,40,United-States,>50K
 63,Without-pay,174181,Graduate,Married,Prof-specialty,Male,0,0,20,United-States,<=50K
 59,Private,131869,HS-grad,Divorced,Other-service,Female,0,0,35,United-States,<=50K
-49,Without-pay,43479,JR-grad,Married,Craft-repair,Male,0,0,40,United-States,<=50K
 62,Private,203126,HS-grad,Single,Prof-specialty,Female,0,0,40,Other-States,<=50K
 17,Private,118792,JR-grad,Single,Sales,Female,0,0,9,United-States,<=50K
 28,Private,272913,HS-grad,Married,Other-service,Male,0,0,30,Other-States,<=50K
@@ -25871,7 +25856,6 @@ age,workclass,fnlwgt,education,marital-status,occupation,sex,capital_gain,capita
 35,Private,178948,Masters,Single,Prof-specialty,Female,0,0,32,United-States,<=50K
 41,Private,43945,HS-grad,Married,Craft-repair,Male,0,0,40,United-States,<=50K
 64,Without-pay,253296,HS-grad,Divorced,Other-service,Female,0,0,40,United-States,<=50K
-23,Private,240137,HS-grad,Single,Other-service,Male,0,0,55,Other-States,<=50K
 49,Private,24712,Graduate,Single,Other-service,Female,0,0,35,Other-States,<=50K
 38,Without-pay,342635,Graduate,Married,Prof-specialty,Male,0,0,70,United-States,<=50K
 62,Private,115387,HS-grad,Single,Other-service,Female,0,0,40,United-States,<=50K
@@ -26312,7 +26296,6 @@ age,workclass,fnlwgt,education,marital-status,occupation,sex,capital_gain,capita
 36,State-gov,110964,Graduate,Married,Prof-specialty,Female,0,1672,38,United-States,<=50K
 35,State-gov,154410,JR-grad,Single,Farming-fishing,Male,0,0,40,United-States,<=50K
 63,Private,257659,Masters,Single,Prof-specialty,Female,0,0,3,United-States,<=50K
-28,Private,274679,Masters,Single,Prof-specialty,Male,0,0,50,United-States,<=50K
 38,Private,252662,Graduate,Divorced,Exec-managerial,Male,0,0,40,United-States,<=50K
 30,Private,356689,HS-grad,Married,Other-service,Male,0,0,60,United-States,<=50K
 18,Private,205218,JR-grad,Single,Other-service,Female,0,0,20,United-States,<=50K
@@ -28229,7 +28212,6 @@ age,workclass,fnlwgt,education,marital-status,occupation,sex,capital_gain,capita
 43,Private,64048,HS-grad,Single,Sales,Female,0,0,44,Other-States,<=50K
 25,State-gov,153534,JR-grad,Married,Protective-serv,Male,0,0,40,United-States,<=50K
 37,Private,193815,JR-grad,Married,Prof-specialty,Male,0,0,45,United-States,>50K
-27,Private,255582,HS-grad,Single,Machine-op-inspct,Female,0,0,40,United-States,<=50K
 39,Private,204527,Doctorate,Married,Prof-specialty,Male,0,0,50,United-States,>50K
 64,Without-pay,159938,HS-grad,Married,Craft-repair,Male,2635,0,24,Other-States,<=50K
 29,Without-pay,229341,HS-grad,Single,Craft-repair,Male,0,0,50,United-States,>50K
@@ -28521,7 +28503,6 @@ age,workclass,fnlwgt,education,marital-status,occupation,sex,capital_gain,capita
 39,State-gov,376455,Graduate,Married,Prof-specialty,Male,0,1887,50,United-States,>50K
 29,Private,267989,HS-grad,Married,Craft-repair,Male,0,0,45,United-States,<=50K
 39,Private,30269,JR-grad,Divorced,Sales,Female,0,0,40,United-States,<=50K
-42,Private,204235,JR-grad,Married,Prof-specialty,Male,0,0,40,United-States,>50K
 46,State-gov,209057,Masters,Married,Exec-managerial,Male,0,0,50,United-States,>50K
 73,Private,349347,HS-grad,Married,Other-service,Male,0,0,25,United-States,<=50K
 47,State-gov,154033,JR-grad,Divorced,Prof-specialty,Female,0,1876,40,United-States,<=50K
@@ -28845,7 +28826,6 @@ age,workclass,fnlwgt,education,marital-status,occupation,sex,capital_gain,capita
 22,Private,218343,HS-grad,Single,Other-service,Female,0,0,40,United-States,<=50K
 20,Private,227626,HS-grad,Married,Adm-clerical,Male,0,0,60,United-States,<=50K
 31,Private,272856,HS-grad,Single,Craft-repair,Male,0,0,50,Other-States,<=50K
-39,Private,30916,HS-grad,Married,Craft-repair,Male,0,0,40,United-States,<=50K
 55,Private,276229,JR-grad,Divorced,Prof-specialty,Female,0,0,40,United-States,<=50K
 35,Private,289106,JR-grad,Divorced,Sales,Male,0,0,40,United-States,<=50K
 67,Private,39100,HS-grad,Married,Prof-specialty,Female,0,0,5,United-States,<=50K
@@ -29156,7 +29136,6 @@ age,workclass,fnlwgt,education,marital-status,occupation,sex,capital_gain,capita
 34,Private,101510,Graduate,Divorced,Sales,Female,0,0,50,United-States,>50K
 30,Private,443546,JR-grad,Married,Sales,Male,0,0,35,United-States,<=50K
 37,State-gov,141029,Masters,Divorced,Prof-specialty,Female,0,0,40,United-States,<=50K
-38,Private,207202,HS-grad,Married,Machine-op-inspct,Male,0,0,48,United-States,>50K
 67,Without-pay,137192,HS-grad,Married,Adm-clerical,Male,0,0,12,Other-States,<=50K
 35,Private,222989,HS-grad,Married,Transport-moving,Male,0,0,30,United-States,<=50K
 75,Without-pay,36325,HS-grad,Married,Farming-fishing,Male,0,0,30,United-States,<=50K
@@ -30844,7 +30823,6 @@ age,workclass,fnlwgt,education,marital-status,occupation,sex,capital_gain,capita
 37,State-gov,166744,HS-grad,Divorced,Other-service,Female,0,0,20,United-States,<=50K
 54,Private,144586,JR-grad,Married,Sales,Female,0,0,40,United-States,>50K
 36,Private,134367,HS-grad,Divorced,Other-service,Female,0,0,30,United-States,<=50K
-46,Private,133616,JR-grad,Divorced,Adm-clerical,Female,0,0,40,United-States,<=50K
 46,Private,203039,Graduate,Married,Sales,Male,0,0,48,United-States,<=50K
 32,Private,217460,HS-grad,Married,Transport-moving,Male,0,0,50,United-States,<=50K
 17,Private,106733,JR-grad,Single,Craft-repair,Male,594,0,40,United-States,<=50K
@@ -31992,7 +31970,6 @@ age,workclass,fnlwgt,education,marital-status,occupation,sex,capital_gain,capita
 46,State-gov,250821,Graduate,Married,Exec-managerial,Male,15024,0,40,United-States,>50K
 48,Private,88564,JR-grad,Divorced,Farming-fishing,Male,0,0,45,United-States,<=50K
 45,Private,172822,HS-grad,Married,Machine-op-inspct,Male,0,0,52,United-States,>50K
-19,Private,251579,JR-grad,Single,Other-service,Male,0,0,14,United-States,<=50K
 31,Private,118399,JR-grad,Married,Machine-op-inspct,Male,0,0,40,United-States,<=50K
 30,Private,178383,JR-grad,Married,Craft-repair,Male,0,0,70,United-States,<=50K
 40,Without-pay,170866,JR-grad,Married,Farming-fishing,Male,0,0,50,United-States,>50K
@@ -32403,7 +32380,6 @@ age,workclass,fnlwgt,education,marital-status,occupation,sex,capital_gain,capita
 52,State-gov,143533,HS-grad,Single,Other-service,Female,0,0,40,United-States,<=50K
 42,Private,288154,JR-grad,Married,Craft-repair,Male,0,0,89,United-States,>50K
 48,Private,325372,HS-grad,Married,Machine-op-inspct,Male,0,0,40,Other-States,<=50K
-35,Private,379959,HS-grad,Divorced,Other-service,Female,0,0,40,United-States,<=50K
 33,Private,168387,JR-grad,Married,Other-service,Male,0,0,40,United-States,<=50K
 20,Private,234640,JR-grad,Single,Adm-clerical,Female,0,0,40,United-States,<=50K
 33,Private,232475,JR-grad,Single,Sales,Male,0,0,45,United-States,<=50K
