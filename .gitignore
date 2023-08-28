@@ -129,3 +129,5 @@ dmypy.json
 .pyre/
 
 census_income.egg-info
+
+mlruns

@@ -25,7 +25,7 @@ class ModelTrainer:
         train_y = train_data[self.config.target_column]
         test_y = test_data[self.config.target_column]
 
-        numeric_features=['age', 'fnlwgt', 'capital_gain', 'capital_loss', 'hours_per_week']
+        numeric_features= ['age', 'fnlwgt', 'capital_gain', 'capital_loss', 'hours_per_week']
         categorical_features=['workclass', 'education', 'marital_status', 'occupation', 'sex', 'country']
 
         # Numerical and Categorical Pipeline Transformation
