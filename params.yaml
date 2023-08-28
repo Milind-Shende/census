@@ -1,0 +1,2 @@
+xgboost:
+  n_estimators: 100
