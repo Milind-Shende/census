@@ -3,14 +3,15 @@ import pandas as pd
 from sklearn.metrics import  f1_score,accuracy_score,recall_score,precision_score,confusion_matrix,roc_curve,auc
 from urllib.parse import urlparse
 import mlflow
-import mlflow.sklearn
+import mlflow.xgboost
 import numpy as np
 import joblib
 from mlProject.entity.config_entity import ModelEvaluationConfig
 from mlProject.utils.common import save_json
 from pathlib import Path
-from imblearn.combine import SMOTETomek
 from mlProject import logger
+from imblearn.combine import SMOTETomek
+import xgboost as xgb
 
 
 class ModelEvaluation:
@@ -50,9 +51,9 @@ class ModelEvaluation:
         train_y=target.fit_transform(train_y)
         test_y=target.fit_transform(test_y)
 
-        smt = SMOTETomek(random_state=42)
-        X_train_fea, y_train_fea = smt.fit_resample(train_x, train_y)
-        X_test_fea, y_test_fea = smt.fit_resample(test_x, test_y)
+        # smt = SMOTETomek(random_state=42)
+        # X_train_fea, y_train_fea = smt.fit_resample(train_x, train_y)
+        # X_test_fea, y_test_fea = smt.fit_resample(test_x, test_y)
 
 
         mlflow.set_registry_uri(self.config.mlflow_uri)
@@ -61,8 +62,9 @@ class ModelEvaluation:
 
         with mlflow.start_run():
 
-
+            # Xdtrain = xgb.DMatrix(X_train_fea)
             predicted_qualities_train = model.predict(train_x)
+            # predicted_labels_train = (predicted_qualities_train > 0.5).astype(int)
 
 
             (f1_train,recall_train, precision_train,accu_score_train) = self.eval_metrics(train_y, predicted_qualities_train)
@@ -72,9 +74,9 @@ class ModelEvaluation:
             save_json(path=Path(self.config.metric_file_name_train), data=scores_train)
 
 
-
+            # Xdtest = xgb.DMatrix(X_test_fea)
             predicted_qualities_test = model.predict(test_x)
-
+            # predicted_labels_test = (predicted_qualities_test > 0.5).astype(int)
             (f1_test,recall_test, precision_test,accu_score_test) = self.eval_metrics(test_y, predicted_qualities_test)
             
             # Saving metrics as local
@@ -94,6 +96,8 @@ class ModelEvaluation:
             mlflow.log_metric("recall_test", recall_test)
             mlflow.log_metric("precision_test", precision_test)
             mlflow.log_metric("accu_score_test", accu_score_test)
+            
+            
 
 
             # Model registry does not work with file store
@@ -103,8 +107,8 @@ class ModelEvaluation:
                 # There are other ways to use the Model Registry, which depends on the use case,
                 # please refer to the doc for more information:
                 # https://mlflow.org/docs/latest/model-registry.html#api-workflow
-                mlflow.sklearn.log_model(model, "model", registered_model_name="ElasticnetModel")
+                mlflow.xgboost.log_model(model, "model", registered_model_name="xgboostModel")
             else:
-                mlflow.sklearn.log_model(model, "model")
+                mlflow.xgboost.log_model(model, "model")
 
     

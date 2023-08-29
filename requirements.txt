@@ -16,4 +16,5 @@ streamlit
 xgboost
 imblearn
 plotly-express
+dill
 -e .

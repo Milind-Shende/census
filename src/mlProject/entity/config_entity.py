@@ -29,7 +29,8 @@ class ModelTrainerConfig:
     model_name: str
     transformer_name: str
     target_name: str
-    n_estimators: int         
+    n_estimators: int
+    scale_pos_weight: int         
     target_column: str
 
 @dataclass(frozen=True)

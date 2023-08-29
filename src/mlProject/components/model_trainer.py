@@ -8,6 +8,7 @@ from sklearn.preprocessing import OneHotEncoder, RobustScaler,MinMaxScaler,Stand
 from sklearn.compose import ColumnTransformer
 from xgboost import XGBClassifier
 from sklearn.multioutput import ClassifierChain
+import dill
 
 
 
@@ -52,15 +53,22 @@ class ModelTrainer:
        
 
         logger.info("define Xgboost Classification")
-        xgb_model = XGBClassifier(n_estimators=self.config.n_estimators)
+        xgb_model = XGBClassifier(n_estimators=self.config.n_estimators,
+                                scale_pos_weight=self.config.scale_pos_weight)
 
         logger.info("fit train_x and train_y")
         xgb_model.fit(train_x, train_y)
 
-        logger.info("Creating a model pickle file")
-        # joblib.dump(xgb_model, os.path.join(self.config.root_dir, self.config.model_name))
-        joblib.dump(xgb_model, os.path.join(self.config.root_dir, self.config.model_name))
-        logger.info("Creating a transformer pickle file")
-        joblib.dump(transformer, os.path.join(self.config.root_dir, self.config.transformer_name))
-        logger.info("Creating a target pickle file")
-        joblib.dump(target_scaler, os.path.join(self.config.root_dir, self.config.target_name))
+        # Save the model, transformer, and target_scaler
+        model_filename = os.path.join(self.config.root_dir, self.config.model_name)
+        transformer_filename = os.path.join(self.config.root_dir, self.config.transformer_name)
+        target_scaler_filename = os.path.join(self.config.root_dir, self.config.target_name)
+
+        with open(model_filename, 'wb') as model_file:
+            dill.dump(xgb_model, model_file)
+
+        with open(transformer_filename, 'wb') as transformer_file:
+            dill.dump(transformer, transformer_file)
+
+        with open(target_scaler_filename, 'wb') as target_scaler_file:
+            dill.dump(target_scaler, target_scaler_file)
